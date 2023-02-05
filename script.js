@@ -48,9 +48,8 @@ if (personalMovieDB.count < 10) {
 console.log(personalMovieDB);
 
 
-
 function hi(num) {
-  return num * 2
+  return [num * 2, num, num *5];
 }
 
 const a = hi(5);
