@@ -46,3 +46,14 @@ if (personalMovieDB.count < 10) {
 
 
 console.log(personalMovieDB);
+
+
+
+function hi(num) {
+  return num * 2
+}
+
+const a = hi(5);
+console.log(a);
+
+hi(5);
